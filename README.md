@@ -115,4 +115,4 @@ If you find this helpful in your work, please consider citing our paper:
 ```
 
 # Contact
-If you have any questions regarding this work, please send email to jiayang.ao@student.unimelb.edu.au.
+I am open to research collaborations related to amodal completion. If you have any questions regarding this work, please send email to jiayang.ao@student.unimelb.edu.au.
