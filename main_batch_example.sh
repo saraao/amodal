@@ -6,6 +6,12 @@ img_filenames_txt="./img_filenames_example.txt"
 # Count the number of lines (i.e., images) in the file
 line_count=$(wc -l < "$img_filenames_txt")
 
+# Set up LaMa environment variables
+pushd ./lama > /dev/null
+export TORCH_HOME="$(pwd)"
+export PYTHONPATH="$(pwd)"
+popd > /dev/null
+
 # Process images in batches of 5
 for line_num in $(seq 0 5 $line_count); do
     echo "Processing batch starting from line: $line_num"
